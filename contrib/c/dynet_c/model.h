@@ -253,6 +253,6 @@ DYNET_C_API DYNET_C_STATUS dynetAddSubcollectionToParameterCollection(
  * @return Status code.
  */
 DYNET_C_API DYNET_C_STATUS dynetGetParameterCollectionParameterCount(
-    const dynetLookupParameter_t *param, size_t *retval);
+    const dynetParameterCollection_t *pc, size_t *retval);
 
 #endif  // DYNET_C_MODEL_H_
